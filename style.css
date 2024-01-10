@@ -1,0 +1,29 @@
+.tree{
+    transition: transform 0.5s ease;
+}
+.tree:hover{
+    transform: scale(1.2);
+}
+
+.eagle{
+    transition: transform 0.5s ease;
+}
+.eagle:hover{
+    transform: scale(1.2);
+}
+
+:root{
+    --primary-color: #fff;
+}
+.dark-theme{
+    --primary-color: #000106;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+body{
+    background: var(--primary-color);
+}
